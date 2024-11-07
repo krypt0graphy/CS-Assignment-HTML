@@ -77,17 +77,17 @@ body {font: 1.2em "Trebuchet MS", sans-serif;
     background: #bbabe1;
     padding: 20px;
     border-radius: 8px;
-    width: 90%;
+    width: calc(100% - 40px);
     max-width: 400px;
     text-align: center;
+    box-sizing: border-box;
 }
-/* the text area of the post window*/
 
+/* the text box for the post menu*/
 .post-content textarea {
     width: 100%;
     height: 100px;
     margin: 10px 0;
-    padding: 10px;
     font-size: 1em;
     border: 1px solid mediumpurple;
     border-radius: 4px;
