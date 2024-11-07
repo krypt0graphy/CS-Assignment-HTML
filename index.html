@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<script src="site.js"></script>
+<header>
+    <!--Navigation Bar-->
+    <div class="navbar">
+        <div class="links">
+            <a href="index.html" class="active">Main</a>
+            <a href="index.html">Posts</a>
+            <a href="mailto:mam4000@hw.ac.uk">Contacts</a>
+        </div>
+        <!-- Button for owner which displays drop down menu for posting, will add proper login later -->
+        <a href="#" class="owner" onclick="toggleDropdown()">
+            <span class="full-title">Mohammad</span>
+            <span class="short-title">≡</span>
+        </a>
+    </div>
+    <!-- drop down menu -->
+    <div id="dropdownMenu" class="dropdown-menu">
+        <button onclick="showPostWindow()">Post</button>
+        <br>
+        <button>Bwah</button>
+    </div>
+
+    <!-- post window with text box -->
+    <div id="postWindow" class="post-window">
+        <div class="post-content">
+            <h2 style="margin-top: 0;">New Post</h2>
+            <textarea id="postText" placeholder="Write your post here..."></textarea>
+            <button onclick="post()">Post</button>
+            <button onclick="closePostWindow()">Close</button>
+        </div>
+    </div>
+</header>
+
+<br>
+<p>
+    Text
+</p>
+</body>
+</html>
