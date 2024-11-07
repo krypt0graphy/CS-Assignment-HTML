@@ -21,13 +21,12 @@ body {font: 1.2em "Trebuchet MS", sans-serif;
 
 .link {
     display: flex;
-    gap: 15px;
+    gap: 2%;
 }
 /* style for the link buttons */
 
 .navbar a {
     color: white;
-    padding: 14px 20px;
     text-decoration: none;
 }
 /* on hover change color of button */
@@ -100,7 +99,7 @@ body {font: 1.2em "Trebuchet MS", sans-serif;
     display: none;
     position: absolute;
     top: 50px;
-    right: 20px;
+    right: 2.5%;
     background-color: #d9ccf9;
     padding: 10px;
     border-radius: 8px;
