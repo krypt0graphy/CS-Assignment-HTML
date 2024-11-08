@@ -21,12 +21,13 @@ body {font: 1.2em "Trebuchet MS", sans-serif;
 
 .link {
     display: flex;
-    gap: 2%;
+    gap: 15px;
 }
 /* style for the link buttons */
 
 .navbar a {
     color: white;
+    padding: 10px;
     text-decoration: none;
 }
 /* on hover change color of button */
@@ -123,3 +124,46 @@ body {font: 1.2em "Trebuchet MS", sans-serif;
 .dropdown-menu button:last-child {
     margin-bottom: 0;
 }
+
+.contacts {
+    display: flex;
+}
+
+.contact-list {
+    background: #d9ccf9;
+    padding: 1%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.contact-list .icon {
+    fill: white;
+
+}
+
+.contact-list li {
+    list-style: none;
+
+}
+.contact-links {
+    vertical-align: middle;
+    justify-content: flex-end;
+    background: #d9ccf9;
+    padding: 1%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
